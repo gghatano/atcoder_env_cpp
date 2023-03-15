@@ -7,8 +7,8 @@ ubuntu@docker で atcoder-toolsを使ってc++17環境を作ります。
 [環境構築]
 * Atcoder用C++環境の用意 (Docker, Docker compose)
   * [docker環境を用意](https://docs.docker.jp/docker-for-windows/install.html)して、dockerとdocker-composeを使えるようにする
-  * 下に置いてある、Dockerfile, docker-compose.ymlを同じフォルダに置く
-    * テキストをコピペするか、ページ上部の「Downlowd ZIP」から取得する
+* このリポジトリをcloneするか、ダウンロードする
+  * ページ上部の「Downlowd ZIP」から取得する
   * Dockerfile、docker-compose.ymlを置いてあるフォルダで、powershellを開く(エクスプローラ>ファイル>powershellで開く)
   * powershell上で、「docker compose up -d」を実行する
 * 開発環境の用意(VS Code)
