@@ -15,7 +15,7 @@ RUN pip3.8 install atcoder-tools \
 RUN mkdir -p /root/.atcodertools/template 
 RUN mkdir -p /root/atcoder-workspace
 
-RUN echo 'asub="atcoder-tools submit -f -u"'
+RUN echo 'asub="atcoder-tools submit -f -u"' >> /root/.bashrc
 RUN echo 'alias atest="g++ -Wfatal-errors --std=c++17 -I /tmp/ac-library main.cpp ; atcoder-tools test"' >> /root/.bashrc
 
 RUN echo 'alias agen="atcoder-tools gen --without-login --template /root/.atcodertools/template/template.cpp"' >> /root/.bashrc
